@@ -1,4 +1,4 @@
-/* //CONTAGEM DE UM ATE VINTE
+//CONTAGEM DE UM ATE VINTE
 function oneTotwenty (){
     let meuRetorno = []
     for (counter = 1; counter <= 20; counter ++){
@@ -50,7 +50,6 @@ console.log(multiplesOfFive())
 // NUMEROS QUADRADOS PERFEITOS
 
 
-
 // NUMEROS CONTANDO DO VINTA AO UM
 
 function twentyToOne (){
@@ -74,6 +73,18 @@ function twentyToOneEven (){
 }
 console.log (twentyToOneEven())
 
+// NUMERO PARES DE 20 A 1
+
+function twentyToOneOdd (){
+    let meuRetorno = []
+    for (counter = 20; counter <= 20 && counter> 0 ; counter --){
+      if((counter%2) == 0)
+        meuRetorno.push(counter)
+    }
+    return meuRetorno
+}
+console.log (twentyToOneOdd())
+
 // NUMEROS PARES DE 100 A 1
 
 function hundredToOneMultiplesOfFive (){
@@ -84,5 +95,5 @@ function hundredToOneMultiplesOfFive (){
     }
     return meuRetorno
 }
-console.log (hundredToOneMultiplesOfFive()) */
+console.log (hundredToOneMultiplesOfFive())
 
